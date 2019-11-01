@@ -7,9 +7,11 @@ public class PlayerMovement : MonoBehaviour {
 	public float speed;
 	private Rigidbody2D myRigidbody;
 	private Vector3 change;
+	private Animator animator;
 
 	// Use this for initialization
 	void Start () {
+		animator = GetComponent<Animator>();
 		myRigidbody = GetComponent<Rigidbody2D>();
 	}
 	
@@ -18,10 +20,22 @@ public class PlayerMovement : MonoBehaviour {
 		change = Vector3.zero;
 		change.x = Input.GetAxis ("Horizontal");
 		change.y = Input.GetAxis ("Vertical");
-		if(change != Vector3.zero)
-		{
-			MoveCharacter();
-		}
+		UpdateAnimationAndMove();
+	}
+
+	void UpdateAnimationAndMove()
+	{
+        if (change != Vector3.zero)
+        {
+            MoveCharacter();
+            animator.SetFloat("moveX", change.x);
+            animator.SetFloat("moveY", change.y);
+            animator.SetBool("moving", true);
+        }
+        else
+        {
+            animator.SetBool("moving", false);
+        }
 	}
 
 	void MoveCharacter()
