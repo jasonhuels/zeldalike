@@ -15,6 +15,11 @@ public class PlayerMovement : MonoBehaviour {
 	private Rigidbody2D myRigidbody;
 	private Vector3 change;
 	private Animator animator;
+    //float MaxSpeed = 10;//This is the maximum speed that the object will achieve
+    //float Acceleration = 10;//How fast will object reach a maximum speed
+	//float Deceleration = 10;//How fast will object reach a speed of 0
+	public Collider box = GameObject.Find("box").GetComponent<Collider>();
+    public Collider player = GameObject.Find("player").GetComponent<Collider>();
 
 	// Use this for initialization
 	void Start () {
@@ -35,6 +40,11 @@ public class PlayerMovement : MonoBehaviour {
 		else if(currentState == PlayerState.walk)
 		{
 			UpdateAnimationAndMove();
+		}
+		if(player.bounds.Intersects(box.bounds) && Input.GetKeyDown("shift"))
+		{
+            Debug.Log("grabbed ");
+            box.transform.SetParent(player.transform);
 		}
 	}
 
