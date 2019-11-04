@@ -17,9 +17,13 @@ public class PlayerMovement : MonoBehaviour {
 	private Animator animator;
     //float MaxSpeed = 10;//This is the maximum speed that the object will achieve
     //float Acceleration = 10;//How fast will object reach a maximum speed
-	//float Deceleration = 10;//How fast will object reach a speed of 0
-	public Collider box = GameObject.Find("box").GetComponent<Collider>();
-    public Collider player = GameObject.Find("player").GetComponent<Collider>();
+    //float Deceleration = 10;//How fast will object reach a speed of 0
+    //public Collider box = GameObject.Find("box").GetComponent<Collider>();
+    //public Collider player = GameObject.Find("Player").GetComponent<Collider>();
+    public float distance = 1f;
+    public LayerMask boxMask;
+
+    GameObject box;
 
 	// Use this for initialization
 	void Start () {
@@ -41,11 +45,23 @@ public class PlayerMovement : MonoBehaviour {
 		{
 			UpdateAnimationAndMove();
 		}
-		if(player.bounds.Intersects(box.bounds) && Input.GetKeyDown("shift"))
+        // if(player.bounds.Intersects(box.bounds) && Input.GetKeyDown("shift"))
+        // {
+        //     Debug.Log("Text: ");
+        //     box.transform.SetParent(player.transform);
+        // }
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x, distance);
+        if (hit.collider != null && hit.collider.gameObject.tag == "Pushable" && Input.GetKeyDown(KeyCode.RightShift))
 		{
-            Debug.Log("grabbed ");
-            box.transform.SetParent(player.transform);
-		}
+			Debug.Log("hit");
+            box = hit.collider.gameObject;
+            box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
+            box.GetComponent<FixedJoint2D>().enabled = true;
+		}else if (Input.GetKeyUp(KeyCode.RightShift))
+        {
+            box.GetComponent<FixedJoint2D>().enabled = false;
+            //box.GetComponent<boxpull>().beingPushed = false;
+        }
 	}
 
 	private IEnumerator AttackCo()
@@ -77,4 +93,6 @@ public class PlayerMovement : MonoBehaviour {
 	{
 		myRigidbody.MovePosition(transform.position + change * speed * Time.deltaTime);
 	}
+
+
 }

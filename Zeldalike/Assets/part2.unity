@@ -979,6 +979,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   speed: 4
+  distance: 1
+  boxMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!61 &370066670
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1120,9 +1124,11 @@ GameObject:
   - component: {fileID: 402360579}
   - component: {fileID: 402360581}
   - component: {fileID: 402360582}
+  - component: {fileID: 402360583}
+  - component: {fileID: 402360584}
   m_Layer: 0
   m_Name: Box
-  m_TagString: Untagged
+  m_TagString: Pushable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1237,6 +1243,36 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &402360583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402360578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2548ed6e2a62d1f4eacf411fc421e721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!255 &402360584
+FixedJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402360578}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 1
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 18.51, y: -20.23}
+  m_DampingRatio: 0
+  m_Frequency: 0
 --- !u!1 &410850003
 GameObject:
   m_ObjectHideFlags: 0
