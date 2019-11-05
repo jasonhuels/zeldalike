@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ButtonCorrect : MonoBehaviour
 {
+    public string value;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,7 @@ public class ButtonCorrect : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Pushable")
+        if (other.gameObject.tag == "Pushable" && other.GetComponent<PushBlock>().value == value)
         {
             Debug.Log("You are the best coder ever!!");
         }
