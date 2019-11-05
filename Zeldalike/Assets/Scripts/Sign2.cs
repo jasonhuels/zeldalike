@@ -52,6 +52,7 @@ public class Sign2 : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = true;
+            Debug.Log("in range");
         }
 
     }
@@ -62,6 +63,7 @@ public class Sign2 : MonoBehaviour
         {
             playerInRange = false;
             dialogBox.SetActive(false);
+            Debug.Log("out range");
         }
 
     }
