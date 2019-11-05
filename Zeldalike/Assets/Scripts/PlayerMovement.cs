@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public enum PlayerState
@@ -14,13 +15,9 @@ public class PlayerMovement : MonoBehaviour {
 	public float speed;
 	private Rigidbody2D myRigidbody;
 	private Vector3 change;
+	private Vector3 direction;
 	private Animator animator;
-    //float MaxSpeed = 10;//This is the maximum speed that the object will achieve
-    //float Acceleration = 10;//How fast will object reach a maximum speed
-    //float Deceleration = 10;//How fast will object reach a speed of 0
-    //public Collider box = GameObject.Find("box").GetComponent<Collider>();
-    //public Collider player = GameObject.Find("Player").GetComponent<Collider>();
-    public float distance = 1f;
+    public float distance = 2f;
     public LayerMask boxMask;
 
     GameObject box;
@@ -34,6 +31,7 @@ public class PlayerMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        //Debug.Log(change);
 		change = Vector3.zero;
 		change.x = Input.GetAxis("Horizontal");
 		change.y = Input.GetAxis("Vertical");
@@ -45,22 +43,20 @@ public class PlayerMovement : MonoBehaviour {
 		{
 			UpdateAnimationAndMove();
 		}
-        // if(player.bounds.Intersects(box.bounds) && Input.GetKeyDown("shift"))
-        // {
-        //     Debug.Log("Text: ");
-        //     box.transform.SetParent(player.transform);
-        // }
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x, distance);
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, change, distance);
         if (hit.collider != null && hit.collider.gameObject.tag == "Pushable" && Input.GetKeyDown(KeyCode.RightShift))
 		{
-			Debug.Log("hit");
             box = hit.collider.gameObject;
+			box.AddComponent<FixedJoint2D>();
             box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
+            box.GetComponent<FixedJoint2D>().breakForce = Mathf.Infinity;
             box.GetComponent<FixedJoint2D>().enabled = true;
 		}else if (Input.GetKeyUp(KeyCode.RightShift))
         {
             box.GetComponent<FixedJoint2D>().enabled = false;
             //box.GetComponent<boxpull>().beingPushed = false;
+			Destroy(box.GetComponent<FixedJoint2D>());
         }
 	}
 
@@ -93,6 +89,7 @@ public class PlayerMovement : MonoBehaviour {
 	{
 		myRigidbody.MovePosition(transform.position + change * speed * Time.deltaTime);
 	}
+
 
 
 }
