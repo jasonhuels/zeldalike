@@ -18,7 +18,15 @@ public class ButtonCorrect : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if(other.gameObject.tag == "Pushable")
+        if(other.gameObject.tag == "Player")
+        {
+            Debug.Log("You are the best coder ever!!");
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Pushable")
         {
             Debug.Log("You are the best coder ever!!");
         }
