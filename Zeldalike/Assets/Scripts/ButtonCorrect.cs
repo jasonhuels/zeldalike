@@ -30,6 +30,11 @@ public class ButtonCorrect : MonoBehaviour
         if (other.gameObject.tag == "Pushable" && other.GetComponent<PushBlock>().value == value)
         {
             Debug.Log("You are the best coder ever!!");
+            other.GetComponent<SpriteRenderer>().color = Color.blue;
+            Vector3 v3 = this.transform.position - other.transform.position;
+            other.transform.position += v3;
+            Destroy(other.GetComponent<FixedJoint2D>());
+            Destroy(other.GetComponent<Rigidbody2D>());
         }
     }
 }
