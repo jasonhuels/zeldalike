@@ -157,11 +157,7 @@ TextureImporter:
     second: font_50
   - first:
       213: -7883779674286137895
-<<<<<<< HEAD
-    second: dialog_box
-=======
     second: font_51
->>>>>>> jasonsBranch
   - first:
       213: -5569944575198093936
     second: font_52
@@ -174,8 +170,6 @@ TextureImporter:
   - first:
       213: -562215649905675761
     second: font_55
-<<<<<<< HEAD
-=======
   - first:
       213: 8443789777515663478
     second: font_56
@@ -1076,7 +1070,6 @@ TextureImporter:
   - first:
       213: -1662386727665182251
     second: font_355
->>>>>>> jasonsBranch
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -1106,7 +1099,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -1168,11 +1161,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-<<<<<<< HEAD
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-=======
     forceMaximumCompressionQuality_BC6H_BC7: 0
->>>>>>> jasonsBranch
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1185,21 +1174,13 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-<<<<<<< HEAD
-      pivot: {x: 0.5, y: 0.5}
-=======
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 02dc1ead0c884474db4aa9337a6c4c88
-=======
       spriteID: 96d4b666ff8b99d498c248e82a59c28a
->>>>>>> jasonsBranch
       internalID: -1401874176895988017
       vertices: []
       indices: 
@@ -1209,31 +1190,18 @@ TextureImporter:
       name: font_1
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 9
-        y: 136
-        width: 6
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 8
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: e755be1b98e254de89df0b30de6756c8
-=======
       spriteID: 1ee469a52c9109c44ab20e3acc3be332
->>>>>>> jasonsBranch
       internalID: -6787896269430008760
       vertices: []
       indices: 
@@ -1245,27 +1213,16 @@ TextureImporter:
         serializedVersion: 2
         x: 16
         y: 136
-<<<<<<< HEAD
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: b5df9b8f0cb4c4ed9a23ea5181801908
-=======
       spriteID: 52405286527e9ee4fac8579220a8023f
->>>>>>> jasonsBranch
       internalID: -6630971469653654122
       vertices: []
       indices: 
@@ -1275,31 +1232,18 @@ TextureImporter:
       name: font_3
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 25
-        y: 136
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 24
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 4d611297b48124ec4aaedc3885ccaeab
-=======
       spriteID: 09af142d0cda65f4b803ff5e3e58d823
->>>>>>> jasonsBranch
       internalID: 3155708254655358991
       vertices: []
       indices: 
@@ -1311,27 +1255,16 @@ TextureImporter:
         serializedVersion: 2
         x: 32
         y: 136
-<<<<<<< HEAD
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 310c49aff8b36465ca38102b60ed0619
-=======
       spriteID: fecff845832259b4c9deca4389c314e9
->>>>>>> jasonsBranch
       internalID: -1809877987737587854
       vertices: []
       indices: 
@@ -1341,31 +1274,18 @@ TextureImporter:
       name: font_5
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 41
-        y: 136
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 40
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: d50fcc3297af948fd901298a8168f10a
-=======
       spriteID: c81867b14eefc0c4db2610b1dc8d0956
->>>>>>> jasonsBranch
       internalID: -8478194216507768359
       vertices: []
       indices: 
@@ -1377,27 +1297,16 @@ TextureImporter:
         serializedVersion: 2
         x: 48
         y: 136
-<<<<<<< HEAD
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 6544b5556783e469d8159029595a7d68
-=======
       spriteID: 487c995baf5e4e141aff08165f92b24f
->>>>>>> jasonsBranch
       internalID: -239845697509426971
       vertices: []
       indices: 
@@ -1407,31 +1316,18 @@ TextureImporter:
       name: font_7
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 57
-        y: 136
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 56
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: fe2454de54f8d4008ba88b5afef838d4
-=======
       spriteID: 21336741dab7ab14c897100c1784c485
->>>>>>> jasonsBranch
       internalID: -2432296197583570664
       vertices: []
       indices: 
@@ -1441,31 +1337,18 @@ TextureImporter:
       name: font_8
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 65
-        y: 136
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 64
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 86fcf62bd13b2470e991fb67257d0d7f
-=======
       spriteID: 7b13281967fbcb64696f569382fb70b5
->>>>>>> jasonsBranch
       internalID: 8988950123309387204
       vertices: []
       indices: 
@@ -1475,31 +1358,18 @@ TextureImporter:
       name: font_9
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 73
-        y: 136
-        width: 6
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 72
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: d33680dbefed6424fa34e57731f7c504
-=======
       spriteID: 3474c749e551a184399e65acdd550e3e
->>>>>>> jasonsBranch
       internalID: -5733437377142980995
       vertices: []
       indices: 
@@ -1509,31 +1379,18 @@ TextureImporter:
       name: font_10
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 81
-        y: 136
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 80
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 4e49fa3d71def45a2be12cd513218ed7
-=======
       spriteID: 07b3f61ce6bf04a47a552282e28cf838
->>>>>>> jasonsBranch
       internalID: 6348170711374592664
       vertices: []
       indices: 
@@ -1543,31 +1400,18 @@ TextureImporter:
       name: font_11
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 89
-        y: 136
-        width: 5
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 88
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 86ac774ef5c2a405ead1c9a94687fdff
-=======
       spriteID: a049ed1b4f6f8994aa90dee20c7b95f8
->>>>>>> jasonsBranch
       internalID: 1538424140462886368
       vertices: []
       indices: 
@@ -1579,27 +1423,16 @@ TextureImporter:
         serializedVersion: 2
         x: 96
         y: 136
-<<<<<<< HEAD
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: e2a79dca2e9554b7b8d6648d9068d545
-=======
       spriteID: b266de342d7d38e4491c0c23b22ff3da
->>>>>>> jasonsBranch
       internalID: -7624602737638586889
       vertices: []
       indices: 
@@ -1609,31 +1442,18 @@ TextureImporter:
       name: font_13
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 105
-        y: 134
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 104
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 457ca5a15645b41ffb41c96c80a9e672
-=======
       spriteID: f704226ded5ec284d815c58bff912392
->>>>>>> jasonsBranch
       internalID: 6660220790318646868
       vertices: []
       indices: 
@@ -1643,31 +1463,18 @@ TextureImporter:
       name: font_14
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 113
-        y: 136
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 112
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: fb756e8f33ebf490684cd1196c5dbe9c
-=======
       spriteID: 642564ba12a837a44af6294e9f0e7cf3
->>>>>>> jasonsBranch
       internalID: -7318864361395112647
       vertices: []
       indices: 
@@ -1677,31 +1484,18 @@ TextureImporter:
       name: font_15
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 121
-        y: 136
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 120
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 53417a65f3b8c4f04a7f80b6714388a6
-=======
       spriteID: 2d23c8dfd1ead1e4da224939afc1bb2d
->>>>>>> jasonsBranch
       internalID: 3830642159544845040
       vertices: []
       indices: 
@@ -1711,31 +1505,18 @@ TextureImporter:
       name: font_16
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 129
-        y: 136
-        width: 12
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 128
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 3f044a8f95daf4904adfbcaba676c12b
-=======
       spriteID: 30b4011465e150d41804b3d7b994c1c6
->>>>>>> jasonsBranch
       internalID: 3772937518185825702
       vertices: []
       indices: 
@@ -1745,31 +1526,18 @@ TextureImporter:
       name: font_17
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 145
-        y: 136
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 136
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: af0cff97f7c7f4dcba5b3204ae154b11
-=======
       spriteID: 0fc2c6f1b8bc1c647b7c9aa7819cda2b
->>>>>>> jasonsBranch
       internalID: -75143286191810230
       vertices: []
       indices: 
@@ -1779,31 +1547,18 @@ TextureImporter:
       name: font_18
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 153
-        y: 132
-        width: 5
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 144
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 0e9898c6502a547128c72cd947f9e768
-=======
       spriteID: e56bc47fa7f19d147aa899ddcfc850f2
->>>>>>> jasonsBranch
       internalID: -5962198388926122564
       vertices: []
       indices: 
@@ -1813,31 +1568,18 @@ TextureImporter:
       name: font_19
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 161
-        y: 136
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 152
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: e747f2936aaef4f50b1bb37bf9e7142a
-=======
       spriteID: 62f28de945b7806439eaf2c3691f8c7e
->>>>>>> jasonsBranch
       internalID: -5357453441090490021
       vertices: []
       indices: 
@@ -1847,31 +1589,18 @@ TextureImporter:
       name: font_20
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 169
-        y: 136
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 160
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: f7273b102e80349849c29a5c7445c2d7
-=======
       spriteID: 8b72d2a413cc19541ad8241b275e5fe2
->>>>>>> jasonsBranch
       internalID: -2743576862614557664
       vertices: []
       indices: 
@@ -1881,31 +1610,18 @@ TextureImporter:
       name: font_21
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 177
-        y: 136
-        width: 12
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 168
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 6ab34d7992a5d49e1b606c6eef208027
-=======
       spriteID: cbf34ae9d178bdf46a0bea7d8ada44fa
->>>>>>> jasonsBranch
       internalID: -5423386022696304102
       vertices: []
       indices: 
@@ -1915,31 +1631,18 @@ TextureImporter:
       name: font_22
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 192
-        y: 136
-        width: 16
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 176
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: e5ce67df51ae94544a6a72e05d682a4c
-=======
       spriteID: cb9d29c2363504643a3ae5f0ed9af4c3
->>>>>>> jasonsBranch
       internalID: 8156438877833951428
       vertices: []
       indices: 
@@ -1949,31 +1652,18 @@ TextureImporter:
       name: font_23
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 216
-        y: 120
-        width: 7
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 184
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 2326107f9e87c4a529a03d4675146af8
-=======
       spriteID: 559c1af49d2f5f64b90ceaa14ce11f7c
->>>>>>> jasonsBranch
       internalID: 7814087314376559365
       vertices: []
       indices: 
@@ -1983,31 +1673,18 @@ TextureImporter:
       name: font_24
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 225
-        y: 112
-        width: 6
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 192
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 41f52c5c529c6421fb5333ac58630297
-=======
       spriteID: c92ae2f707e43004c9146e061a07db91
->>>>>>> jasonsBranch
       internalID: -7269697945286533571
       vertices: []
       indices: 
@@ -2017,31 +1694,18 @@ TextureImporter:
       name: font_25
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 233
-        y: 120
-        width: 6
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 200
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 2274cc7bd748a417eafc92451d784beb
-=======
       spriteID: 50424525de2e87c4ebf863deb39f33da
->>>>>>> jasonsBranch
       internalID: 7303193327651535916
       vertices: []
       indices: 
@@ -2051,31 +1715,18 @@ TextureImporter:
       name: font_26
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 0
-        y: 120
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 216
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 639fd68c1efb64327927dbe5107c2db1
-=======
       spriteID: 0a2bccd32e739c04fae50d31748bc729
->>>>>>> jasonsBranch
       internalID: -8722637314202152839
       vertices: []
       indices: 
@@ -2085,31 +1736,18 @@ TextureImporter:
       name: font_27
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 9
-        y: 120
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 224
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: e0630f655736141d2bf8859ccd168b7b
-=======
       spriteID: 8aa2b0478d216904cb815eb08d1a894e
->>>>>>> jasonsBranch
       internalID: -1020516230262658627
       vertices: []
       indices: 
@@ -2119,31 +1757,18 @@ TextureImporter:
       name: font_28
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 17
-        y: 104
-        width: 6
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 232
         y: 136
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: cd4df784518ea461db73701234714bb3
-=======
       spriteID: e634cdc25241dc64eb6b2281181bedcc
->>>>>>> jasonsBranch
       internalID: -8972199240296285320
       vertices: []
       indices: 
@@ -2153,31 +1778,18 @@ TextureImporter:
       name: font_29
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 25
-        y: 120
-        width: 6
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 104
         y: 128
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 92567a39838b644bd8a50ed09b40c38c
-=======
       spriteID: c22769e22bb9afc4586370497dffae81
->>>>>>> jasonsBranch
       internalID: -1796777426575798969
       vertices: []
       indices: 
@@ -2187,31 +1799,18 @@ TextureImporter:
       name: font_30
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 33
-        y: 120
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 152
         y: 128
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: f90e9b613445f4899b0640baccbfd9d5
-=======
       spriteID: 7f126ca0afa8ebd478544dc859904d2d
->>>>>>> jasonsBranch
       internalID: -4836960121619903016
       vertices: []
       indices: 
@@ -2221,31 +1820,18 @@ TextureImporter:
       name: font_31
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 41
-        y: 117
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 216
         y: 128
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 72077aa33e2c5420ba2ff7c6af266c7f
-=======
       spriteID: c84cc19d8859b5e4c9b2347bb1ff46f4
->>>>>>> jasonsBranch
       internalID: 7650269062071469143
       vertices: []
       indices: 
@@ -2255,31 +1841,18 @@ TextureImporter:
       name: font_32
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 49
-        y: 119
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 224
         y: 128
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 7b00f290f033c45e497e4c32291f03ec
-=======
       spriteID: 58b9121a90bfed945b7c80c137f6cef7
->>>>>>> jasonsBranch
       internalID: -1011159927129189223
       vertices: []
       indices: 
@@ -2289,31 +1862,18 @@ TextureImporter:
       name: font_33
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 57
-        y: 119
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 232
         y: 128
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: c3787817f77c9480c86a9c56833a9182
-=======
       spriteID: a2e2420a01b5ab241a332dba2419ad56
->>>>>>> jasonsBranch
       internalID: 5757750352503347483
       vertices: []
       indices: 
@@ -2323,31 +1883,18 @@ TextureImporter:
       name: font_34
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 65
-        y: 120
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 0
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 4c96b87e924db48999a7d81e1570c21b
-=======
       spriteID: 73a8768de4ba9dc4dab788c61d8bd480
->>>>>>> jasonsBranch
       internalID: 3538517688748631324
       vertices: []
       indices: 
@@ -2357,31 +1904,18 @@ TextureImporter:
       name: font_35
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 73
-        y: 120
-        width: 6
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 8
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 45c8bb68df1ce4724ba7e9070033fe49
-=======
       spriteID: 08646e09543b75e46a42621d2f06e18e
->>>>>>> jasonsBranch
       internalID: -8399110205408421858
       vertices: []
       indices: 
@@ -2391,31 +1925,18 @@ TextureImporter:
       name: font_36
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 81
-        y: 120
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 16
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 5c57fec01be234905bae26c3ed10e6b7
-=======
       spriteID: eb08f5e1db4ba334086081faea2ff61a
->>>>>>> jasonsBranch
       internalID: 8319599630124454179
       vertices: []
       indices: 
@@ -2425,31 +1946,18 @@ TextureImporter:
       name: font_37
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 83
-        y: 104
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 24
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 0faa465760a244145b22af0087bed0d6
-=======
       spriteID: 0cf05f088757aad479115d0494d6d32a
->>>>>>> jasonsBranch
       internalID: 513192918839877092
       vertices: []
       indices: 
@@ -2459,30 +1967,18 @@ TextureImporter:
       name: font_38
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 96
-=======
         x: 32
->>>>>>> jasonsBranch
         y: 120
         width: 8
         height: 8
       alignment: 0
-<<<<<<< HEAD
-      pivot: {x: 0.5, y: 0.5}
-=======
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 131f928dc24134884a388df58b8986de
-=======
       spriteID: 6c9b327ccded1f247b260850d7db41d5
->>>>>>> jasonsBranch
       internalID: 3460629101215251287
       vertices: []
       indices: 
@@ -2492,31 +1988,18 @@ TextureImporter:
       name: font_39
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 106
-        y: 110
-        width: 4
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 40
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 59e4931e5de4543d98853f0671439f59
-=======
       spriteID: ca0f12365abfee849be5658c696be6ba
->>>>>>> jasonsBranch
       internalID: -8743923282464806245
       vertices: []
       indices: 
@@ -2526,30 +2009,18 @@ TextureImporter:
       name: font_40
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 112
-=======
         x: 48
->>>>>>> jasonsBranch
         y: 120
         width: 8
         height: 8
       alignment: 0
-<<<<<<< HEAD
-      pivot: {x: 0.5, y: 0.5}
-=======
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: f80a0514651754b4dadf39ff9a1ff9ac
-=======
       spriteID: a06f810e38aeadc4ea8b3ae2308b6562
->>>>>>> jasonsBranch
       internalID: -792220410938874319
       vertices: []
       indices: 
@@ -2559,31 +2030,18 @@ TextureImporter:
       name: font_41
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 122
-        y: 120
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 56
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: c3b5611311edc42caa110109cf564374
-=======
       spriteID: f6b5fc90c8ddf3443880adbeab82399e
->>>>>>> jasonsBranch
       internalID: 964083406343291134
       vertices: []
       indices: 
@@ -2593,30 +2051,18 @@ TextureImporter:
       name: font_42
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 128
-=======
         x: 64
->>>>>>> jasonsBranch
         y: 120
         width: 8
         height: 8
       alignment: 0
-<<<<<<< HEAD
-      pivot: {x: 0.5, y: 0.5}
-=======
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: fcdf6eb9ef5c94973aebd54514c097af
-=======
       spriteID: 6bd7476db4fabfb43b33dc37ba0fe718
->>>>>>> jasonsBranch
       internalID: -149372764968093301
       vertices: []
       indices: 
@@ -2626,31 +2072,18 @@ TextureImporter:
       name: font_43
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 137
-        y: 120
-        width: 6
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 72
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: d4238fcb4b46b408682a4df9dfbc3328
-=======
       spriteID: b5107c25dbffe0b40830282ee3fa95b8
->>>>>>> jasonsBranch
       internalID: 630263889465222927
       vertices: []
       indices: 
@@ -2660,31 +2093,18 @@ TextureImporter:
       name: font_44
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 144
-        y: 120
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 80
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 40a25639f98434d29a54e818f695a072
-=======
       spriteID: cf2b3deac30c58c4caf336157a18ec16
->>>>>>> jasonsBranch
       internalID: -1893216928342777713
       vertices: []
       indices: 
@@ -2694,31 +2114,18 @@ TextureImporter:
       name: font_45
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 161
-        y: 120
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 88
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 7c068f558584541b5beb9376113662d5
-=======
       spriteID: d20049fcbae345d43aaaf85925f7d229
->>>>>>> jasonsBranch
       internalID: -8776576318087593080
       vertices: []
       indices: 
@@ -2728,31 +2135,18 @@ TextureImporter:
       name: font_46
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 169
-        y: 120
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 96
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 6c955768a214141fba9714e6b51695db
-=======
       spriteID: be98c5aeac82b5e46bda6dd5df3e4a95
->>>>>>> jasonsBranch
       internalID: -2450729692647493939
       vertices: []
       indices: 
@@ -2762,31 +2156,18 @@ TextureImporter:
       name: font_47
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 177
-        y: 120
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 104
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 1852998690b41462f9a121b4d9ebd875
-=======
       spriteID: b14fba3c57003334a80a943bfb353097
->>>>>>> jasonsBranch
       internalID: -8569273844013267952
       vertices: []
       indices: 
@@ -2796,31 +2177,18 @@ TextureImporter:
       name: font_48
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 185
-        y: 117
-        width: 5
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 112
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 12550810febed43ff92fedc1699fc61d
-=======
       spriteID: 4845ed56e061fe84c881f4c5276d3824
->>>>>>> jasonsBranch
       internalID: 1469561704231032989
       vertices: []
       indices: 
@@ -2830,30 +2198,18 @@ TextureImporter:
       name: font_49
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 192
-=======
         x: 120
->>>>>>> jasonsBranch
         y: 120
         width: 8
         height: 8
       alignment: 0
-<<<<<<< HEAD
-      pivot: {x: 0.5, y: 0.5}
-=======
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 4838b4641ae524883aa3857522a3dff6
-=======
       spriteID: 6ee0e5bbc6dd8b34eaf34f648f98d487
->>>>>>> jasonsBranch
       internalID: 82551005613627470
       vertices: []
       indices: 
@@ -2863,49 +2219,24 @@ TextureImporter:
       name: font_50
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 202
-        y: 120
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 128
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 6f8f994e7e6f943ad8b035bc96d2dab3
-=======
       spriteID: b52f3ea8c308d734ea1bbe2117ef47c1
->>>>>>> jasonsBranch
       internalID: -5189378041568466396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< HEAD
-      name: dialog_box
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 24
-        width: 240
-        height: 71
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 9, y: 13, z: 8, w: 11}
-=======
       name: font_51
       rect:
         serializedVersion: 2
@@ -2916,16 +2247,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
->>>>>>> jasonsBranch
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: fa2cea40515254915a8cc636df8d1706
-=======
       spriteID: 161fabbb0729a674baa84cd57e010907
->>>>>>> jasonsBranch
       internalID: -7883779674286137895
       vertices: []
       indices: 
@@ -2935,31 +2261,18 @@ TextureImporter:
       name: font_52
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 33
-        y: 104
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 144
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 26d62c0ff879742f5b3a703fda84d5b1
-=======
       spriteID: 2364274c51986a64b90fb6931b030828
->>>>>>> jasonsBranch
       internalID: -5569944575198093936
       vertices: []
       indices: 
@@ -2969,31 +2282,18 @@ TextureImporter:
       name: font_53
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 41
-        y: 97
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 152
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: d6528a8b1ae1945559518b590d7637a9
-=======
       spriteID: 1e05aa0ea9f579448a0726726b689758
->>>>>>> jasonsBranch
       internalID: 5311506086254759173
       vertices: []
       indices: 
@@ -3003,31 +2303,18 @@ TextureImporter:
       name: font_54
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 48
-        y: 104
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 160
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 1972ce4e8204042afa0dd50a85e46e50
-=======
       spriteID: 7986fbb0f559bb64e850fb8008f36f0a
->>>>>>> jasonsBranch
       internalID: 8719968736322432147
       vertices: []
       indices: 
@@ -3037,38 +2324,23 @@ TextureImporter:
       name: font_55
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 66
-        y: 104
-        width: 12
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
         x: 168
         y: 120
         width: 8
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> jasonsBranch
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
-      spriteID: 91ff4ad4542b748bbb122d79a05a83d8
-=======
       spriteID: 555b185b5d0809643b5605ab330eb37e
->>>>>>> jasonsBranch
       internalID: -562215649905675761
       vertices: []
       indices: 
       edges: []
       weights: []
-<<<<<<< HEAD
-=======
     - serializedVersion: 2
       name: font_56
       rect:
@@ -9369,7 +8641,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
->>>>>>> jasonsBranch
     outline: []
     physicsShape: []
     bones: []
