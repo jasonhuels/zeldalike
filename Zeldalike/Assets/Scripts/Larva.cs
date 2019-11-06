@@ -38,11 +38,19 @@ public class Larva : Enemy
                 ChangeState(EnemyState.walk);
                 if (target.position.x < transform.position.x)
                 {
+<<<<<<< HEAD
                     transform.localScale = new Vector3(-0.5f, 0.5f, 0);
                 }
                 else
                 {
                     transform.localScale = new Vector3(0.5f, 0.5f, 0);
+=======
+                    transform.localScale = new Vector3(-0.5, 0.5, 0);
+                }
+                else
+                {
+                    transform.localScale = new Vector3(0.5, 0.5, 0);
+>>>>>>> master
                 }
             }
             
