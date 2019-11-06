@@ -33,8 +33,8 @@ public class ButtonCorrect : MonoBehaviour
             //change box to blue
             other.GetComponent<SpriteRenderer>().color = Color.blue;
             //enable particle emissions
-            var em = other.GetComponent<ParticleSystem>().emission;
-            em.enabled = true;
+            //var em = other.GetComponent<ParticleSystem>().emission;
+            //em.enabled = true;
             //snap box into trigger place
             Vector3 v3 = this.transform.position - other.transform.position;
             other.transform.position += v3;

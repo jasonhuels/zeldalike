@@ -10,9 +10,9 @@ public class PushBlock : MonoBehaviour
   // Start is called before the first frame update
   void Start()
   {
-    dustParticles = this.GetComponent<ParticleSystem>();
-    var em = dustParticles.emission;
-    em.enabled = false;
+    //dustParticles = this.GetComponent<ParticleSystem>();
+    //var em = dustParticles.emission;
+    //em.enabled = false;
   }
 
   // Update is called once per frame

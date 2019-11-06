@@ -1,16 +1,14 @@
 ﻿<Properties StartupConfiguration="{4813C49D-707F-97B1-C452-4A8E7A602B07}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Sign2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BoxLabel.cs">
     <Files>
-      <File FileName="Assets/Scripts/Sign2.cs" Line="55" Column="15" />
+      <File FileName="Assets/Scripts/BoxLabel.cs" Line="29" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Zeldalike" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Sign2.cs" selected="True" />
-              </Node>
+              <Node name="Scripts" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
@@ -19,7 +17,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5a3efc5d-e0e9-4b1d-80de-5f7e869e8ff5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="98b10fdb-0b8d-4a13-915a-d7988665b375" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

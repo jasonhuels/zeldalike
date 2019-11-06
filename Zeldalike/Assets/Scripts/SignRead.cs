@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Sign2 : MonoBehaviour
+public class SignRead : MonoBehaviour
 {
 
     public GameObject dialogBox;
@@ -17,33 +17,20 @@ public class Sign2 : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    //void Update()
-    //{
-    //    if (playerInRange)
-    //    {
-    //        if (dialogBox.activeInHierarchy)
-    //        {
-    //            dialogBox.SetActive(false);
-    //        }
-    //        else
-    //        {
-    //            dialogBox.SetActive(true);
-    //            dialogText.text = dialog;
-    //        }
-    //    }
-    //}
-   
-
     void Update()
     {
-        if (playerInRange)
+        if (playerInRange && Input.GetKeyDown(KeyCode.RightShift))
         {
-            dialogBox.SetActive(true);
-            dialogText.text = dialog;
-        } else
-        {
-            dialogBox.SetActive(false);
+
+            if(dialogBox.activeInHierarchy)
+            {
+                dialogBox.SetActive(false);
+            } else
+            {
+                dialogBox.SetActive(true);
+                dialogText.text = dialog;
+            }
+            
         }
     }
 
