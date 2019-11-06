@@ -49,6 +49,7 @@ public class PlayerMovement : MonoBehaviour {
         if(hit.collider != null && hit.collider.gameObject.tag == "Pushable" && Input.GetKeyDown(KeyCode.RightShift))
 		{
             box = hit.collider.gameObject;
+            Destroy(box.GetComponent<FixedJoint2D>());
 			box.AddComponent<FixedJoint2D>();
             box.GetComponent<FixedJoint2D>().connectedBody = this.GetComponent<Rigidbody2D>();
             box.GetComponent<FixedJoint2D>().breakForce = Mathf.Infinity;
