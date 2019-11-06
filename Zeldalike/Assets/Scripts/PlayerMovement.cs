@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour {
 	private Animator animator;
     public float distance = 2f;
     public LayerMask boxMask;
+    public FloatValue currentHealth;
 
     GameObject box;
 
