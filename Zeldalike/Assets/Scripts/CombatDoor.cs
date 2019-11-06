@@ -17,18 +17,11 @@ public class CombatDoor : MonoBehaviour
     {
         target = GameObject.FindWithTag("Enemy");
         Debug.Log(target);
-<<<<<<< HEAD
-        if(target == null)
-=======
+
+
         if (target == null)
->>>>>>> master
         {
             Destroy(gameObject);
         }
     }
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> master
 }
