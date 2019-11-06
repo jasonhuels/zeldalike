@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 31e274e4d4c3541b285c4bb045dab1aa, type: 3}
   m_Name: Player Health
   m_EditorClassIdentifier: Assembly-CSharp::FloatValue
   prefabName: 
-  value: 6
-  initialValue: -9
+  initialValue: 6
+  RunTimeValue: 0
   numberOfPrefabsToCreate: 0
   spawnPoints: []
