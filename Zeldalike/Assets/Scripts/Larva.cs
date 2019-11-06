@@ -43,6 +43,7 @@ public class Larva : Enemy
                 else
                 {
                     transform.localScale = new Vector3(0.5f, 0.5f, 0);
+
                 }
             }
             
