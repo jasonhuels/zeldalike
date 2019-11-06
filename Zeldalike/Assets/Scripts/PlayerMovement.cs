@@ -85,6 +85,8 @@ public class PlayerMovement : MonoBehaviour {
         else
         {
             animator.SetBool("moving", false);
+			change.x = 0;
+			change.y = 0;
         }
 	}
 
