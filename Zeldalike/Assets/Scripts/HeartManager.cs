@@ -53,7 +53,6 @@ public class HeartManager : MonoBehaviour
             playerCurrentHealth.RunTimeValue -= 1;
             Debug.Log(playerCurrentHealth.RunTimeValue);
         }
-        
     }
 }
 
