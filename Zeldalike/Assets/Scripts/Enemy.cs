@@ -33,18 +33,14 @@ public class Enemy : MonoBehaviour
     ps = gameObject.GetComponent<ParticleSystem>();
     psr = gameObject.GetComponent<ParticleSystemRenderer>();
   }
+  // Start is called before the first frame update
   public void Start()
   {
+    sfxSource.clip = sfxClip;
     dying = false;
     
   }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        sfxSource.clip = sfxClip;
-        dying = false;
-    }
 
   // Update is called once per frame
   public void Update()
