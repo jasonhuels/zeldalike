@@ -20,20 +20,11 @@ public class Enemy : MonoBehaviour
     public int baseAttack;
     public float moveSpeed;
     public bool dying;
+    public FloatValue playerHealth;
     public AudioClip sfxClip;
     public AudioSource sfxSource;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        sfxSource.clip = sfxClip;
-        dying = false;
-    }
-
-
-  ParticleSystem ps;
-
-  ParticleSystemRenderer psr;
+    public ParticleSystem ps;
+    public ParticleSystemRenderer psr;
 
   // Start is called before the first frame update
   public void Awake()
@@ -47,6 +38,13 @@ public class Enemy : MonoBehaviour
     dying = false;
     
   }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        sfxSource.clip = sfxClip;
+        dying = false;
+    }
 
   // Update is called once per frame
   public void Update()
@@ -66,6 +64,16 @@ public class Enemy : MonoBehaviour
 
     }
   }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Player")
+        {
+            playerHealth.RunTimeValue -= 1;
+        }
+    }
+
+  
 
   private IEnumerator DieCo()
   {
@@ -118,4 +126,5 @@ public class Enemy : MonoBehaviour
 
     
   }
+
 }
