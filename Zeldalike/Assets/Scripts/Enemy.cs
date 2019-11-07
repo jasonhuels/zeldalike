@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
     public int baseAttack;
     public float moveSpeed;
     public bool dying;
+    public FloatValue playerHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,9 @@ public class Enemy : MonoBehaviour
         {
             StartCoroutine(DieCo());
         }
+
+        //if successful collision with player
+        //harm player
     }
 
     private IEnumerator DieCo()
@@ -40,5 +44,13 @@ public class Enemy : MonoBehaviour
         yield return new WaitForSeconds(1);
         //StartCoroutine(DieCo());
         Destroy(this.gameObject);
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Player")
+        {
+            playerHealth.RunTimeValue -= 1;
+        }
     }
 }

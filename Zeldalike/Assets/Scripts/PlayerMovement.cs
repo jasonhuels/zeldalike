@@ -61,6 +61,9 @@ public class PlayerMovement : MonoBehaviour {
             //box.GetComponent<boxpull>().beingPushed = false;
 			Destroy(box.GetComponent<FixedJoint2D>());
         }
+
+
+        CheckDeath();
 	}
 
 	private IEnumerator AttackCo()
@@ -95,6 +98,13 @@ public class PlayerMovement : MonoBehaviour {
 		myRigidbody.MovePosition(transform.position + change * speed * Time.deltaTime);
 	}
 
+    private void CheckDeath()
+    {
+        if(currentHealth.RunTimeValue < 1)
+        {
+            Destroy(gameObject);
+        }
+    }
 
 
 }
