@@ -15,6 +15,7 @@ public class Knockback : MonoBehaviour
             if(enemy != null)
             {
                 other.GetComponent<Enemy>().dying = true;
+                other.GetComponent<Enemy>().sfxSource.Play();
                 //enemy.GetComponent<Enemy>().currentState = EnemyState.stagger;
                 enemy.isKinematic = false;
                 Vector2 difference = enemy.transform.position - transform.position;

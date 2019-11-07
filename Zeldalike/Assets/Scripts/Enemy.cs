@@ -18,10 +18,13 @@ public class Enemy : MonoBehaviour
     public int baseAttack;
     public float moveSpeed;
     public bool dying;
-
+    public AudioClip sfxClip;
+    public AudioSource sfxSource;
+    
     // Start is called before the first frame update
     void Start()
     {
+        sfxSource.clip = sfxClip;
         dying = false;
     }
 
@@ -39,6 +42,7 @@ public class Enemy : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, 0, Random.value*360);
         yield return new WaitForSeconds(1);
         //StartCoroutine(DieCo());
+        sfxSource.Play();
         Destroy(this.gameObject);
     }
 }
