@@ -55,11 +55,3 @@ public class HeartManager : MonoBehaviour
         }
     }
 }
-
-
-
-//5 > 2.5 0 full 1 full 2 half
-
-//4 > 2 > 0 full 1 full 2 empty
-
-
