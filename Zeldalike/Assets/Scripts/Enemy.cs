@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,71 +20,83 @@ public class Enemy : MonoBehaviour
   public float moveSpeed;
   public bool dying;
 
+  ParticleSystem ps;
+
+  ParticleSystemRenderer psr;
+
   // Start is called before the first frame update
-  void Start()
+  public void Awake()
+  {
+    CreateEnemyDeathParticleSystem(gameObject);
+    ps = gameObject.GetComponent<ParticleSystem>();
+    psr = gameObject.GetComponent<ParticleSystemRenderer>();
+  }
+  public void Start()
   {
     dying = false;
-    //SphereCollider sc = gameObject.AddComponent(typeof(SphereCollider)) as SphereCollider;
     
   }
 
   // Update is called once per frame
-  void Update()
+  public void Update()
   {
     if (dying)
     {
+      Debug.Log(ps.isPlaying);
       StartCoroutine(DieCo());
+      
     }
   }
 
   private IEnumerator DieCo()
   {
-    transform.rotation = Quaternion.Euler(0, 0, Random.value * 360);
+    transform.rotation = Quaternion.Euler(0, 0, UnityEngine.Random.value * 360);
     yield return new WaitForSeconds(1);
     //StartCoroutine(DieCo());
     Destroy(this.gameObject);
   }
 
-  public ParticleSystem CreateEnemyDeathParticleSystem(GameObject go)
+  public void CreateEnemyDeathParticleSystem(GameObject go)
   {
     ParticleSystem ps = go.AddComponent(typeof(ParticleSystem)) as ParticleSystem;
+    ParticleSystemRenderer psr = go.GetComponent<ParticleSystemRenderer>();
+    ps.Stop();
+    
+    psr.material = new Material(Shader.Find("Sprites/Default"));
 
     //general
-    var main = ps.main;
+    var m = ps.main;
     
     //set colors
-    var startColor = main.startColor;
-    startColor.colorMax = Color.red;
-    startColor.colorMin = Color.black;
-    main.startColor = startColor;
-
-    main.duration = 0.5f;
-    main.startLifetime = 0.5f;
-    main.startSpeed = 5.0f;
+    m.startColor = Color.red;
+    m.startSize = 0.1f;
+    m.loop = false;
+    m.duration = 1f;
+    m.simulationSpace = ParticleSystemSimulationSpace.World;
+    m.startLifetime = 0.5f;
+    m.startSpeed = 5.0f;
+    m.ringBufferMode = ParticleSystemRingBufferMode.PauseUntilReplaced;
+    m.cullingMode = ParticleSystemCullingMode.AlwaysSimulate;
     
-    var startSize = main.startSize;
-    startSize.constantMax = 0.1f;
-    startSize.constantMin = 0.05f;
+   
+    // startSize.constantMax = 0.1f;
+    // startSize.constantMin = 0.05f;
    
    //emission
     var em = ps.emission;
     em.enabled = true;
     em.rateOverTime = 50f;
 
-    //size
-    var sz = ps.sizeOverLifetime;
-    sz.enabled = true;
-    AnimationCurve curve = new AnimationCurve();
-    curve.AddKey(1.0f, 0.0f);
-    curve.AddKey(0.0f, 1.0f); 
-
-    //shape
+  //   //size
+  //   // var sz = ps.sizeOverLifetime;
+  //   // sz.enabled = true;
+  //   // sz.size = new ParticleSystem.MinMaxCurve(1.0f, 0.0f);
+  //   //shape
     var sh = ps.shape;
     sh.enabled = true;
     sh.shapeType = ParticleSystemShapeType.Sphere;
-    sh.radius = 1;
+    sh.radius = 2;
 
     
-
-    return ps;
   }
+}

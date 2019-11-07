@@ -16,7 +16,6 @@ public class CombatDoor : MonoBehaviour
     void Update()
     {
         target = GameObject.FindWithTag("Enemy");
-        Debug.Log(target);
 
 
         if (target == null)
