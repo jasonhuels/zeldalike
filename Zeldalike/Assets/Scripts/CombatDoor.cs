@@ -10,18 +10,26 @@ public class CombatDoor : MonoBehaviour
     void Start()
     {
         //openDoor = false;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         target = GameObject.FindWithTag("Enemy");
-        Debug.Log(target);
-
 
         if (target == null)
         {
+            transform.parent.GetComponent<School2DoorOpen>().openSource.Play();
             Destroy(gameObject);
         }
     }
+
+    private IEnumerator DeathCo()
+    {
+        yield return new WaitForSeconds(5);
+
+        Destroy(gameObject);
+    }
+
 }
