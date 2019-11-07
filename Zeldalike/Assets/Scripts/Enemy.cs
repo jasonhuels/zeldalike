@@ -13,12 +13,23 @@ public enum EnemyState
 
 public class Enemy : MonoBehaviour
 {
-  public EnemyState currentState;
-  public int health;
-  public string enemyName;
-  public int baseAttack;
-  public float moveSpeed;
-  public bool dying;
+
+    public EnemyState currentState;
+    public int health;
+    public string enemyName;
+    public int baseAttack;
+    public float moveSpeed;
+    public bool dying;
+    public AudioClip sfxClip;
+    public AudioSource sfxSource;
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+        sfxSource.clip = sfxClip;
+        dying = false;
+    }
+
 
   ParticleSystem ps;
 
@@ -42,9 +53,17 @@ public class Enemy : MonoBehaviour
   {
     if (dying)
     {
+
+        transform.rotation = Quaternion.Euler(0, 0, Random.value*360);
+        yield return new WaitForSeconds(1);
+        //StartCoroutine(DieCo());
+        sfxSource.Play();
+        Destroy(this.gameObject);
+
       Debug.Log(ps.isPlaying);
       StartCoroutine(DieCo());
       
+
     }
   }
 

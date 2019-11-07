@@ -13,12 +13,14 @@ public class Knockback : MonoBehaviour
   {
     if (other.gameObject.CompareTag("Enemy"))
     {
+
       Rigidbody2D enemy = other.GetComponent<Rigidbody2D>();
       ps = other.GetComponent<ParticleSystem>();
       if (enemy != null)
       {
         ps.Play();
         other.GetComponent<Enemy>().dying = true;
+        other.GetComponent<Enemy>().sfxSource.Play();
         //enemy.GetComponent<Enemy>().currentState = EnemyState.stagger;
         enemy.isKinematic = false;
         Vector2 difference = enemy.transform.position - transform.position;
@@ -29,6 +31,7 @@ public class Knockback : MonoBehaviour
 
         StartCoroutine(KnockCo(enemy));
       }
+
     }
   }
 
