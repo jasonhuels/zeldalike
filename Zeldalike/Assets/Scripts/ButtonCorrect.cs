@@ -6,10 +6,11 @@ public class ButtonCorrect : MonoBehaviour
 {
     public string value;
     public bool correct;
+
+    public ParticleSystem ps;
     // Start is called before the first frame update
     void Start()
     {
-
     }
 
     // Update is called once per frame
@@ -28,6 +29,7 @@ public class ButtonCorrect : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        ps = other.gameObject.GetComponent<ParticleSystem>();
         if (other.gameObject.tag == "Pushable" && other.GetComponent<PushBlock>().value == value)
         {
             //Debug.Log("You are the best coder ever!!");
@@ -39,6 +41,7 @@ public class ButtonCorrect : MonoBehaviour
             //snap box into trigger place
             Vector3 v3 = this.transform.position - other.transform.position;
             other.transform.position += v3;
+            ps.Play();
             Destroy(other.GetComponent<FixedJoint2D>());
             Destroy(other.GetComponent<Rigidbody2D>());
             correct = true;
