@@ -39,9 +39,16 @@ public class Sign2 : MonoBehaviour
     {
         if (playerInRange)
         {
-            dialogBox.SetActive(true);
-            dialogText.text = dialog;
-        } else
+            if (dialogBox.activeInHierarchy == false && Input.GetKeyDown(KeyCode.RightShift))
+            {
+                dialogBox.SetActive(true);
+                dialogText.text = dialog;
+            }
+            else if (dialogBox.activeInHierarchy == true && Input.GetKeyDown(KeyCode.RightShift))
+            {
+                dialogBox.SetActive(false);
+            }
+        } else if (dialogBox.activeInHierarchy == true)
         {
             dialogBox.SetActive(false);
         }
