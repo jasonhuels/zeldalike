@@ -20,6 +20,11 @@ public class PlayerMovement : MonoBehaviour {
     public float distance = 2f;
     public LayerMask boxMask;
     public FloatValue currentHealth;
+	public AudioClip sfxSlash;
+    public AudioClip sfxStep;
+	public AudioSource stepSource;
+    public AudioSource slashSource;
+	private bool stepPlaying = false;
 
     GameObject box;
 
@@ -38,11 +43,21 @@ public class PlayerMovement : MonoBehaviour {
 		change.y = Input.GetAxis("Vertical");
 		if(Input.GetButtonDown("attack") && currentState != PlayerState.attack)
 		{
+            slashSource.clip = sfxSlash;
+            slashSource.Play();
 			StartCoroutine(AttackCo());
 		}
 		else if(currentState == PlayerState.walk)
 		{
 			UpdateAnimationAndMove();
+		}
+
+		if(!stepPlaying && (change.x != 0 || change.y != 0))
+		{
+            stepSource.clip = sfxStep;
+            stepSource.Play();
+			stepPlaying = true;
+            StartCoroutine(StepCo());
 		}
 
         RaycastHit2D hit = Physics2D.Raycast(transform.position + change , change, distance);
@@ -75,6 +90,13 @@ public class PlayerMovement : MonoBehaviour {
 		yield return new WaitForSeconds(0.3f);
 		currentState = PlayerState.walk;
 	}
+
+    private IEnumerator StepCo()
+    {
+        yield return new WaitForSeconds(0.4f);
+        
+		stepPlaying =false;
+    }
 
 	void UpdateAnimationAndMove()
 	{
